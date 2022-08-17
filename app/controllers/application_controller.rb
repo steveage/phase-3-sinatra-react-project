@@ -6,6 +6,10 @@ class ApplicationController < Sinatra::Base
     Todo.all.to_json(include: :category)
   end
 
+  get "/categories" do
+    Category.all.to_json()
+  end
+
   post "/todos" do
     todo = Todo.create(
       category_id: params[:category_id],
