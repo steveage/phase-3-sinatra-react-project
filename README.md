@@ -1,3 +1,5 @@
+# Front End Application
+Please use [phase-3-client-project](https://github.com/steveage/phase-3-client-project) as a client for this api server.
 # Phase 3 Project Guidelines
 
 ## Learning Goals
